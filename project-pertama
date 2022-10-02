@@ -1,9 +1,3 @@
-# ==================================================================================
-'''
-nama = fajar anugrah krisna dwinarta
-nim = l200220009
-'''
-# ==================================================================================
 
 # ==================================================================================
 '''Fungsi untuk mengecek apakah angka ganjil atau genap.
@@ -14,8 +8,6 @@ program input number secara manual'''
 
 
 import math
-
-
 def cek_ganjil_genap(*angka):
     angka = angka[0]
     if angka % 2 == 0:
