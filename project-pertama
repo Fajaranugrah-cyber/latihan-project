@@ -1,3 +1,33 @@
+# ==================================================================================
+
+
+PELAGIAT ADALAH KEJAHATAN DUNIA MAYA
+
+
+
+Di buat oleh Fajaranugrah-cyber
+file ini mengandung hak cipta
+jangan copy paste 
+
+©Fajaranugrah-cyber 
+
+|||||||||||||||||||||||||
+||||||///////////||||||||
+|||||||||||||||||||||||||
+||||||
+||||||
+|||||||||||||||||
+||||////////|||||
+|||||||||||||||||
+||||||
+||||||
+||||||
+
+
+# ==================================================================================
+
+
+
 
 # ==================================================================================
 '''Fungsi untuk mengecek apakah angka ganjil atau genap.
@@ -25,21 +55,15 @@ def cek_ganjil_genap(*angka):
 '''Fungsi untuk mengecek apakah tahun kabisat atau bukan. '''
 # ==================================================================================
 
-'''
-    tahun = int(tahun)'''
-
-
 def cek_tahun_kabisat(*tahun):
     tahun = tahun[0]
     if tahun % 400 == 0:
-        print(bool(tahun))
-    elif tahun % 100 == 0:
-        print(bool(tahun))
-
-    elif tahun % 4 == 0:
-        print(bool(tahun))
-    else:
-        print(bool(False))
+        return True
+    if tahun % 100 == 0:
+        return False
+    if tahun % 4 == 0:
+        return True
+    return False
 
 
 # ==================================================================================
